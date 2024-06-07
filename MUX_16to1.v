@@ -24,7 +24,7 @@ output out;
 assign out=in[sel];
 endmodule
 
-//VERSION 2: code for implementing 16x1 mux by instantiating 4x1 mux(B
+//VERSION 2: code for implementing 16x1 mux by instantiating 4x1 mux(BEHAVIOURAL 4x1 Mux)
 module mux16x1(out,sel,in);
 input [15:0]in; input [3:0]sel;
 output out;

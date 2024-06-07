@@ -1,11 +1,11 @@
-#code for implementing 16x1 multiplexer
+//code for implementing 16x1 multiplexer
 module mux16x1(out,sel,in);
 input [15:0]in; input [3:0]sel;
 output out;
 assign out=in[sel];
 endmodule
 
-#Testbench for the above multiplexer
+//Testbench for the above multiplexer
 module mux_tb();
 reg [15:0]A;
 reg [3:0]S;
